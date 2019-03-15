@@ -14,6 +14,7 @@
 # limitations under the License.
 #
  PRODUCT_PROPERTY_OVERRIDES += \
+	ro.treble.enabled=true \
 	rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
 	ril.subscription.types=NV,RUIM \
 	DEVICE_PROVISIONED=1 \
@@ -33,7 +34,7 @@
 	vendor.display.perf_hint_window=50 \
 	vendor.gralloc.disable_wb_ubwc=1 \
 	vendor.display.enable_default_color_mode=1 \
-	ro.sf.lcd_density=420 \
+	ro.sf.lcd_density=360 \
 	persist.vendor.qti.inputopts.enable=true \
 	persist.vendor.qti.inputopts.movetouchslop=0.6 \
 	persist.vendor.cne.feature=1 \
